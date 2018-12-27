@@ -1,0 +1,45 @@
+{
+  "name": "react-native-web-boilerplate",
+  "version": "0.0.1",
+  "description": "react-native-web boilerplate",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "agrcrobles@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config web/webpack.config.js"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "babel-polyfill": "6.26.0",
+    "fs": "0.0.1-security",
+    "path-to-regexp": "^2.4.0",
+    "pouchdb-find": "^7.0.0",
+    "pouchdb-react-native": "^6.4.1",
+    "pouchdb-silverlining": "^0.1.0",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-toaster": "^1.2.2",
+    "react-native-vector-icons": "4.2.0",
+    "react-native-web": "0.0.x",
+    "react-navigation": "2.8.0",
+    "react-redux": "5.0.7",
+    "redux": "4.0.0",
+    "redux-array": "1.0.1",
+    "simple-object-validation": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "6.21.0",
+    "babel-eslint": "6.1.2",
+    "babel-loader": "6.2.10",
+    "babel-plugin-transform-regenerator": "6.26.0",
+    "babel-preset-react-native": "2.0.0",
+    "file-loader": "0.10.0",
+    "react-hot-loader": "3.0.0-beta.6",
+    "url-loader": "0.5.7",
+    "webpack": "2.3.0",
+    "webpack-dev-server": "2.4.2"
+  }
+}
